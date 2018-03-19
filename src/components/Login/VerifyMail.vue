@@ -8,7 +8,9 @@
       {{ $t('VERIFYMAIL.SUCCESS') }}
     </p>
     <p v-if="hasAnyError">
-      <i class="fa fa-exclamation-triangle"/>
+      <i
+        class="fas fa-exclamation-triangle"
+        style="height:25px; width:25px"/>
       {{ anyFirstError }}
     </p>
     <router-link to="/">
